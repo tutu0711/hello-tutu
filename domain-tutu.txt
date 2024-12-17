@@ -23,7 +23,5 @@
 - geosite,sony,DIRECT
  # 大陆域名
 - geosite,cn,DIRECT
- # 大陆IP
-- geoip,cn,DIRECT
- # 非大陆IP
+ # 非大陆域名
 - geosite,geolocation-!cn,节点选择
