@@ -3,6 +3,7 @@
 - SRC-IP-CIDR,192.168.100.146/32,DIRECT # ps5
 ##
 - geosite,google,节点选择
+##
 - DOMAIN-SUFFIX,services.googleapis.cn,节点选择
 - DOMAIN-SUFFIX,safebrowsing.apple,节点选择
 - DOMAIN-SUFFIX,gsas.apple.com,节点选择
@@ -24,3 +25,5 @@
 - geosite,cn,DIRECT
  # 大陆IP
 - geoip,cn,DIRECT
+ # 非大陆IP
+- geosite,geolocation-!cn,节点选择
